@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>3RD PARTY CLIENTS</title>
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container center">
+      <h6>THIRD PARTY TEST INTERFACE</h6>
+      <div class="card">
+        <div class="card-content">
+          <form id="getClaimDataForm" method="post">
+            <div class="row">
+              <div class="col s2"></div>
+              <div class="col s8">
+                <div class="input-field">
+                  <input type="text" value="" id="claimId" />
+                  <label for="claimId">Claim ID</label>
+                </div>
+              </div>
+              <div class="col s2"></div>
+            </div>
+            <div class="input-field">
+              <button class="btn">Send</button>
+            </div>
+          </form>
+          <div id="claimDataDisplay"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
