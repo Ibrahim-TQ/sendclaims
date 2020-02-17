@@ -5,7 +5,7 @@ const claimId = document.querySelector("#claimId");
 const url = `https://hixapitest.biminihealthcareng.com`;
 
 const token =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJiYmMxZWQ1Ni00OGMwLTQ4NzMtOTliNS1kM2U2OWZiODdiZDMiLCJFbWFpbCI6ImFkZWZlbWkxMDFAZ21haWwuY29tIiwibmJmIjoxNTgxODQ1MzMwLCJleHAiOjE1ODE4NTk3MzAsImlhdCI6MTU4MTg0NTMzMH0.dv4QrWUtKHYfjM9CMvYnuR0LOjS3x-8J82LOYKkEzpE";
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiJiYmMxZWQ1Ni00OGMwLTQ4NzMtOTliNS1kM2U2OWZiODdiZDMiLCJFbWFpbCI6ImFkZWZlbWkxMDFAZ21haWwuY29tIiwibmJmIjoxNTgxOTQ5NzUxLCJleHAiOjE1ODE5NjQxNTEsImlhdCI6MTU4MTk0OTc1MX0.aVdlW6p8T4w-uzWixZX3ctLcavT0hZcStnw-e8NuZSs";
 
 let claimOutput = "";
 let claimDisplay = document.querySelector("#claimDataDisplay");
